@@ -17,7 +17,7 @@ updateCountdown();
 setInterval(updateCountdown, 1000);
 
 // Photo Slideshow
-const images = ["photo1.jpg", "photo2.jpg", "photo3.jpg"]; // Add your image file names here
+const images = ["photo1.jpeg", "photo2.jpeg", "photo3.jpeg"]; // Add your image file names here
 const slideshowImg = document.getElementById("slideshowImg");
 let currentImageIndex = 0;
 function updateSlideshow() {
